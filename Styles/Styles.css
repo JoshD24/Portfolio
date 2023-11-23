@@ -7,12 +7,49 @@
 html{
     scroll-behavior: smooth;
 }
+
+/* Image */
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 350px;
+    border: 15px solid;
+    border-radius: 20px;
+}
+figcaption{
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Header and Navigation Bar */
 .navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 4%;
     background-color: powderblue;
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+}
+
+/* Navigation buttons */
+.button{
+    padding: 10px;
+    transition-duration: 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px lightslategray;
+    font-family: 'Karla', sans-serif;
+}
+
+a:hover{
+    background: blanchedalmond;
 }
 
 .menu li{
@@ -20,15 +57,106 @@ html{
 
 }
 .menu li a{
-    color: white;
+    color: black;
     font-size: 20px;
     cursor: pointer;
     text-decoration: none;
+    margin: 0.5rem;
 }
 
-section#About-me{
-    padding: 100px 0;
+/* Background color*/
+body{
+    background-color: blanchedalmond;
 }
+
+/* Main content */
+section#About-me{
+    padding: 150px 0;
+}
+
+h2{
+    background-color: powderblue;
+    border-style: solid;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: large;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+section#My-hobbies{
+    padding: 200px 0;
+    font-family: 'Karla', sans-serif;
+}
+
+h3{
+    padding-top: 50px;
+}
+
+/* table */
+th, td{
+    padding: 10px;
+    text-align: center;
+}
+
+tr:hover {background-color: powderblue;}
+
+th{
+    background-color: powderblue;
+}
+
+a:link{
+    text-decoration: none;
+    color: red;
+}
+
+h3{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+section#Goals{
+    padding: 150px 0;
+    font-family: 'Karla', sans-serif;
+}
+
+ol{
+    padding-left: 50px;
+    padding-top: 20px;
+    list-style-type: upper-roman;
+    font-family: 'Karla', sans-serif;
+}
+
+/* Footer */
+footer{
+    padding: 10px;
+    background-color: powderblue;
+    margin-bottom: 30px;
+    border-style: solid;
+}
+
+p{
+    padding: 15px;
+    font-family: 'Karla', sans-serif;
+}
+
+h3{
+    font-family: 'Karla', sans-serif;
+}
+
+ul{
+    padding: 15px;
+    list-style: circle;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+}
+
+
+
 
 
 
