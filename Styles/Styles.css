@@ -33,6 +33,7 @@ figcaption{
     background-color: powderblue;
     font-family: 'PT Serif', serif;
     font-size: 20px;
+    flex-wrap: wrap;
 }
 
 /* Navigation buttons */
@@ -46,6 +47,7 @@ figcaption{
     border-radius: 15px;
     box-shadow: 0 9px lightslategray;
     font-family: 'Karla', sans-serif;
+    flex-wrap: wrap;
 }
 
 a:hover{
@@ -124,7 +126,7 @@ section#Goals{
     font-family: 'Karla', sans-serif;
 }
 
-ol{
+.List ol{
     padding-left: 50px;
     padding-top: 20px;
     list-style-type: upper-roman;
@@ -155,8 +157,40 @@ ul{
     font-size: 15px;
 }
 
+.hello {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
 
+/* Counter */
+.Odd {
+    color: red;
+}
 
+.Even {
+    color: blue;
+}
 
+/* Loop color and align */
+.even {
+    color: white;
+}
 
+.cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+/* Press Me button alignment */
+
+.Display_flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    flex-wrap: wrap;
+}

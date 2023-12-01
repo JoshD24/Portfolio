@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Josh's Portfolio</title>
     <link rel="stylesheet" href="./Styles/Styles.css">
+    <script src="./js/main.js" async defer></script>
 </head>
     <body>
         <header>
-            <main id="">
+            <main>
                     <div class="navbar">
                     <h1>My Portfolio</h1>
                     <nav class="menu">
@@ -20,6 +21,8 @@
                         </ul>
                     </nav>
                     </div>
+                    <!-- Click me with hover & alert -->
+                    <button id="btn-alert">Click Me!</button>
         </header>
             </main>
                 <figure>
@@ -90,14 +93,22 @@
                                 <td> "Hey Joe"</td>
                             </tr>
                             </table>
+
+                            <!-- TEST -->
+                            <div class="hello">
+                             <p id="Hello"></p>
+                            </div>
+
                     </section>
                     <section id="Goals">
                     <h2>Goals</h2>
+                <div class="List">
                     <ol>
                         <li>Learn as much as I can and build new skills</li>
                         <li>Graduate</li>
                         <li>Get a job within this industry</li>
                     </ol>
+                </div>
                     </section>
         <footer id="Contact">
             <h3> Contact Information</h3>
@@ -106,7 +117,17 @@
                         <li>Email: renope2640@glalen.com </li>
                         <li>Phone number: +15137464151 </li>
                     </ul>
-                Joshua Depositar 2023 &copy;
+                Joshua Depositar <p id="Year"></p> &copy;
         </footer>
+        <!-- Incrementing counter -->
+        <div class="Display_flex">
+            <button id="Up">Press Me</button> 
+            <p class="Even" id="Counter"></p>
+        </div>
+        <!-- Loop -->
+        <div class="cont">
+            <ol id="numbers">
+            </ol>
+        </div>
      </body>
 </html>
