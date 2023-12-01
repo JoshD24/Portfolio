@@ -22,7 +22,7 @@ const Hover = document.querySelector("#btn-alert")
         })){
     }})
 
-    // Button hover change
+ // Button hover change
 
     const element = document.getElementById("btn-alert")
 
@@ -33,7 +33,7 @@ const Hover = document.querySelector("#btn-alert")
         element.innerText = "Click me!"
     }}
     
-    // Incrementing button
+// Incrementing button
 
 let count = 0;
 const textCounter = document.getElementById("Up")
