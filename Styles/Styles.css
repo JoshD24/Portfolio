@@ -87,7 +87,6 @@ h2{
 }
 
 p{
-    font-family: 'Merriweather Sans', sans-serif;
     font-size: large;
     font-weight: 400;
     padding-top: 10px;
@@ -142,6 +141,7 @@ footer{
     background-color: powderblue;
     margin-bottom: 30px;
     border-style: solid;
+    font-family: 'Karla', sans-serif;
 }
 
 p{
